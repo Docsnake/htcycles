@@ -1,0 +1,10 @@
+.main-head {
+  grid-area: header;
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+  .logo{
+    text-align: center;
+    font-size: 30px;
+  }
+}

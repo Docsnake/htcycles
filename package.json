@@ -1,0 +1,17 @@
+{
+  "name": "htcycles",
+  "version": "1.0.0",
+  "description": "Hard Tails Cycles new web page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jorgegarciadelanavarra@gmail.com",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

@@ -1,0 +1,16 @@
+.main-nav {
+  background-color: #f48322;
+  grid-area: nav;
+}
+@media (min-width: 500px) {
+  nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 700px) {
+   nav ul {
+     flex-direction: space-between;
+   }
+}
