@@ -6,8 +6,6 @@
     "header"
     "nav"
     "content"
-    "sidebar"
-    "ad"
     "footer";
 }
 @media (min-width: 500px) {
@@ -16,8 +14,7 @@
     grid-template-areas:
       "header  header"
       "nav     nav"
-      "sidebar content"
-      "sidebar      footer";
+      "content    content";
   }
 }
 
@@ -27,7 +24,6 @@
     grid-template-areas:
       "header header  header"
       "nav    nav    nav"
-      "content    content sidebar"
-      "footer footer  footer"
+      "content    content    content";
   }
 }

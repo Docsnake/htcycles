@@ -2,4 +2,6 @@
   .content {
     background-color: green;
     grid-area: content;
+    overflow: hidden;
+    position:relative;
   }
